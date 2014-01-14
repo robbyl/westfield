@@ -1,0 +1,97 @@
+/*
+Skin Name: EasyAccordion Stitch
+Description: The skin used at slidedeck.com
+Author: Orman Clark
+Version: 1.0
+Tags: flexible, white, black, multi-color
+*/
+
+/* FEEL FREE TO CUSTOMIZE THE FOLLOWING RULES */
+
+dd p{line-height:120%}
+
+#accordion-wrapper {
+    padding: 2px 0 0 5px;
+    /*background: #D7D7D7;*/
+}
+
+#accordion-1 {
+    width: auto;
+    height: 284px;
+    /*padding: 25px;*/
+    overflow: hidden;
+} 
+#accordion-1 h2 {
+    font-size: 1.3em;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#accordion-1 dl {
+    width: auto;
+    height: 392px;
+    margin: 0 !important;
+    padding: 0 !important;
+} 
+#accordion-1 dt {
+    height: 42px;
+    line-height: 37px;
+    cursor: pointer;
+    text-align: right;
+    padding: 0 10px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Century Gothic", Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: url(images/spines.png) no-repeat;
+    color: #505050;
+}
+#accordion-1 dt.hover{background-position: 0 -43px; color:#000;}
+#accordion-1 dt.active.hover, #accordion-1 dt.active{background-position: 0 -86px; color:#fff}
+#accordion-1 dd {
+    overflow: hidden !important;
+    padding: 10px 10px 10px 30px !important;
+    height: 262px !important;
+    /*width: 600px !important;*/
+    text-align: left;
+    font-family: "Arial", "Helvetica", sans-serif;
+    background: url('images/slides.png') top right no-repeat #fff; 
+}
+#accordion-1 .slide-number {
+    color:#505050;
+    left: 15px;
+    top: -2px;
+    font-size: 24px;
+    height: 40px;
+    /*font-weight:bold;*/
+} 
+#accordion-1 dt { background-position: 0 0 }
+
+#accordion-1 .active .slide-number{color:#fff}
+#accordion-1 dt:hover > .slide-number{color: #000}
+#accordion-1 dt.active:hover > .slide-number{color: #fff}
+#accordion-1 a{color:#68889b}
+#accordion-1 dd img{float:right;margin:0 0 0 8px;position:relative;top:-20px}
+#accordion-1 div.activeCorner { 
+    background: url('images/corner.png') 0 0 no-repeat;
+    display: none;
+    position: absolute;
+    left: 85%;
+    width: 24px;
+    height: 25px;
+    top: 38px !important;
+    margin-left:-7px !important;
+    overflow: hidden;
+    zIndex: 20000;
+}	
+#accordion-1 .active div.activeCorner { display: inline-block; } 
+/*#accordion-1 div.activeCorner.spine_2 { background-position: -16px 0; }
+#accordion-1 div.activeCorner.spine_3 { background-position: -32px 0; }
+#accordion-1 div.activeCorner.spine_4 { background-position: -48px 0; }
+#accordion-1 div.activeCorner.spine_5 { background-position: -64px 0; }
+#accordion-1 div.activeCorner.spine_6 { background-position: -80px 0; }
+#accordion-1 div.activeCorner.spine_7 { background-position: -96px 0; }
+#accordion-1 div.activeCorner.spine_8 { background-position: -112px 0; }
+#accordion-1 div.activeCorner.spine_9 { background-position: -128px 0; }
+#accordion-1 div.activeCorner.spine_10 { background-position: -144px 0; }*/

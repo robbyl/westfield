@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>jQuery Easy Accordion Plugin</title>
+
+        <!-- Meta -->
+        <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+        <meta name="author" content="Andrea Cima Serniotti - Madeincima.eu / enhenced by Luch Klooster" />
+        <meta name="description" content="jQuery Easy Accordion Plugin - A highly flexible timed horizontal slider able to show any kind of content" />
+        <meta name="keywords" content="jQuery, plugin, accordion, slider, slideshow, horizontal, timed, interval" />	  
+
+        <!-- Scripts -->
+        <script type="text/javascript" src="scripts/jquery.min.js"></script>
+        <script type="text/javascript" src="scripts/jquery.easyAccordion.js"></script>
+        <script type="text/javascript" src="scripts/jquery.ba-resize.min.js"></script>	  
+        <link href="css/demopage.css" rel="stylesheet" /> 
+        <link href="css/easyAccordion.css" rel="stylesheet" />
+        <link href="css/stitch/skin.css" rel="stylesheet" /> 
+        <!-- <link href="css/ribbons/skin.css" rel="stylesheet" /> -->
+        <!-- <link href="css/RotR/skin.css" rel="stylesheet" /> -->
+        <link href="css/blue/skin.css" rel="stylesheet" /> 	  
+        <link href="css/orange/skin.css" rel="stylesheet" />       
+        <script type="text/javascript" src="scripts/utility.js"></script>
+
+    </head>
+    <body>
+
+        <div class="sample">
+            <h1>jQuery Easy Accordion Plugin</h1>
+
+            <h2>Horizontal Accordion with Autoplay</h2>
+            <p>Set the '<strong>autoStart</strong>' parameter to '<strong>true</strong>' to get a timed slideshow. You can also define the interval between each slide in milliseconds using the '<strong>slideInterval</strong>' parameter.</p>
+            <div id="accordion-1">
+                <dl>
+                    <dt>First slide</dt>
+                    <dd><h2>This is the first slide</h2><p><img src="images/monsters/img1.png" alt="Alt text to go here" />Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, enim.<br /><a href="#" class="more">Read more</a></p></dd>
+                    <dt>Second slide</dt>
+                    <dd><h2>Here is the second slide</h2><p><img src="images/monsters/img2.png" alt="Alt text to go here" />Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, enim.<br /><a href="#" class="more">Read more</a></p></dd>
+                    <dt>One more slide</dt>
+                    <dd><h2>One more slide to go here</h2><p><img src="images/monsters/img3.png" alt="Alt text to go here" />Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, enim.<br /><a href="#" class="more">Read more</a></p></dd>
+                    <dt>Another slide</dt>
+                    <dd><h2>Another slide to go here</h2><p><img src="images/monsters/img4.png" alt="Alt text to go here" />Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, enim.<br /><a href="#" class="more">Read more</a></p></dd>
+                    <dt>Wow one more</dt>
+                    <dd><h2>Unbelievable one more slide here</h2><p><img src="images/monsters/img5.png" alt="Alt text to go here" />Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, enim.<br /><a href="#" class="more">Read more</a></p></dd>
+                    <dt>Last one</dt>
+                    <dd><h2>This is definitely the last one</h2><p><img src="images/monsters/img6.png" alt="Alt text to go here" />Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, enim.<br /><a href="#" class="more">Read more</a></p></dd>
+                </dl>
+            </div>
+            <img src="images/bugs/img1.png" onclick="$('dt.spine_5').activateSlide()" /><p>Click the beetle to show the fifth slide.</p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+.buttonscontainer {width: 170px;}
+
+.buttons a {color: #000000;
+background-image:url('nav-bg5.html');
+padding: 4px;
+padding-left: 10px;
+display: block;
+border-bottom: 1px;
+border-bottom-style: dotted;
+font: 14px Arial, sans-serif;
+font-weight: bold;
+text-decoration: none;
+text-align: left;}
+
+.buttons a:hover {background-image:url('nav-bg2.html');
+color: #0e4be2;
+text-decoration: none}
+
+.buttons-active a {color: #0e4be2;
+background-image:url('nav-bg2.html');
+padding: 4px;
+padding-left: 10px;
+display: block;
+border-bottom: 1px;
+border-bottom-style: dotted;
+font-weight: bold;
+text-decoration: none;
+text-align: left; font-style:normal; font-variant:normal; font-size:14px; font-family:Arial, sans-serif}
