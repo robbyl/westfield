@@ -610,4 +610,130 @@ ol#controls li.current a{
 }
 ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus{outline:none;}
 
-/* // Easy Slider */
+
+#googlewrapping{width:100%;float:left;padding:0px;border-bottom:1px solid #d5c3c3;}
+#googlewrap{
+	width:100%;
+	float:left;
+	margin:0px;
+	height:300px;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	filter: alpha(opacity=80);
+	-moz-opacity: 0.8;
+	-khtml-opacity: 0.8;
+	opacity: 0.8;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+#googlewrap:hover{
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	-moz-opacity: 1;
+	-khtml-opacity: 1;
+	opacity: 1;
+}
+
+#contact-wrapper {
+    width: 100%;
+}
+
+.contact-left {
+    float: left;
+    width: 70%;
+}
+
+.contact-right {
+    float: right;
+    width: 30%;
+    text-align: left;
+}
+
+.contact-right h3 {
+    text-transform: uppercase;
+}
+
+.contact-right ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-right ul li {
+}
+
+.contact-left p {
+    text-align: justify;
+    padding-right: 50px;
+}
+
+#contact-form fieldset {
+    border: none;
+    padding: 0;
+}
+
+#contact-form .commentinput, #contact-form textarea {
+    background: #f2f2f2;
+    border: 1px solid #dddddd;
+    padding: 0 5px;
+}
+#contact-form .commentinput {
+    width: 300px;
+    height: 30px;
+}
+#contact-form textarea {
+    width: 400px;
+    height: 200px;
+}
+
+.accordionwrap{
+	width:100%;
+	float:left;
+	margin-top:20px;
+	-moz-border-radius:3px;
+	-ms-border-radius:3px;
+	-o-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+        margin-bottom: 20px;
+}
+
+.accordiontitle{
+	width: 100%;
+	float: left;
+	padding: 0px;
+	font-size: 10pt;
+	border: 1px solid #EBE8E6;
+	cursor: pointer;
+	background-color: #FAFAFA;
+	background-image: url(../images/headeroverlay.png);
+	background-repeat: repeat;
+}
+
+.accordiontitle h3{
+	/*font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;*/
+	font-size:15pt;
+	padding-left:20px;
+        text-transform: uppercase;
+}
+
+.accordiontitle a, .accordiontitle a:visited, .accordiontitle a:hover{
+	color: #3A3A3A;
+	font-size: 10pt;
+	text-decoration: none;
+}
+
+.accordiontitle.active {
+	background-position: right 5px;
+}
+
+.accordioncontent{
+	width: 98%;
+	float:left;
+	padding:1%;
+	font-size:10pt;
+	border-top:0px;
+}
+
+/* === ACCORDION === */

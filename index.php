@@ -43,7 +43,7 @@
                         <li><a href="#">Solutions</a></li>
                         <li><a href="Products/">Products</a></li>
                         <li><a href="#">Our Clients</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="contact-us.php">Contact Us</a></li>
                     </ul>
                 </div>
                 <div id="accordion-wrapper">

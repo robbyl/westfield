@@ -89,7 +89,21 @@ jQuery(document).ready(function(){
  * AJAX Section
  * This function will handle the contact process through AJAX
  */
-// ==== CONTACT FORM SECTION ==== //		
+// ==== CONTACT FORM SECTION ==== //	
+
+// ==== ACCORDION SECTION ==== //
+	jQuery('.accordionwrap .accordioncontent').hide();
+//	jQuery('.accordionwrap .accordiontitle:first-child').addClass('active').next().show();
+	
+	jQuery('.accordionwrap .accordiontitle').click(function() {
+		if(jQuery(this).next().is(':hidden')) {
+			jQuery(this).parent().find(".accordiontitle").removeClass('active').next().slideUp('fast');
+			jQuery(this).toggleClass('active').next().slideDown('fast');
+		}
+		return false;
+	});
+	// ==== ACCORDION SECTION ==== //
+
 	
 });
 
@@ -103,7 +117,8 @@ jQuery(window).load(function() {
 
 function initGoogleMaps() {
 	/* Google Maps Init */
-	var myLatlng = new google.maps.LatLng(-37.817942, 144.964977);
+//	var myLatlng = new google.maps.LatLng(-37.817942, 144.964977);
+	var myLatlng = new google.maps.LatLng(-6.772110, 39.234999);
 	var myOptions = {
 		zoom: 16,
 		center: myLatlng,
