@@ -32,12 +32,12 @@
             <div id="globalheader">
                 <ul id="globalnav">
                     <li id="gn-apple"><a href="../index.php">Home</a></li>
-                    <li><a href="#"><span>About Us</span></a></li>
+                    <li><a href="../About-Us/"><span>About Us</span></a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Solutions</a></li>
                     <li><a href="index.php" class="current">Products</a></li>
                     <li><a href="#">Our Clients</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="../contact-us.php">Contact Us</a></li>
                 </ul>
             </div>
             <!-- #EndLibraryItem --><table width="900" border="0" align="center" cellpadding="0" cellspacing="0">

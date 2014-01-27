@@ -281,7 +281,7 @@
                                             <a href="#">Company Profile</a><br>
                                             <a href="#">Our customers</a><br>
                                             <a href="#">Careers</a><br>
-                                            <a href="#">Contact Us</a></font><font size="1" face="Arial, Helvetica, sans-serif"><strong><br>
+                                            <a href="contact-us.php">Contact Us</a></font><font size="1" face="Arial, Helvetica, sans-serif"><strong><br>
                                             </strong></font></font></span>
                             </div>
                         </td>

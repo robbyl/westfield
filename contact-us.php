@@ -31,8 +31,8 @@
             </map>
             <div id="globalheader">
                 <ul id="globalnav">
-                    <li id="gn-apple"><a href="../index.php">Home</a></li>
-                    <li><a href="#"><span>About Us</span></a></li>
+                    <li id="gn-apple"><a href="index.php">Home</a></li>
+                    <li><a href="About-Us/index.php"><span>About Us</span></a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Solutions</a></li>
                     <li><a href="Products/index.php">Products</a></li>
@@ -67,15 +67,15 @@
                             <p>If you have any question, comment or message, please fill-out the form and our customer service representatives will reply to your inquiry within 24 hrs</p>
                             <form id="contact-form">
                                 <fieldset>
-                                    <p><label>Name</label><br>
+                                    <p><label>Name<span class="requied-field">*</span></label><br>
                                         <input type="text" class="commentinput" name="name" id="name"></p>
-                                    <p><label>email</label><br>
+                                    <p><label>Company</label><br>
                                         <input type="text" class="commentinput" name="email" id="email"></p>
-                                    <p><label>email</label><br>
+                                    <p><label>E-mail<span class="requied-field">*</span></label><br>
                                         <input type="text" class="commentinput" name="email" id="email"></p>
-                                    <p><label>email</label><br>
+                                    <p><label>How did you find us?</label><br>
                                         <input type="text" class="commentinput" name="email" id="email"></p>
-                                    <p><label>Comment</label><br>
+                                    <p><label>Comment<span class="requied-field">*</span></label><br>
                                         <textarea class="commenttextarea" name="commentarea" id="commentarea"></textarea></p>
                                     <p><input type="submit" class="home-button" style="width: 150px;"></p>
                                 </fieldset>
@@ -85,8 +85,14 @@
                             <div class="widget">
 
                                 <h3>Address</h3>
-
-                                <p>HUMANNE HOMES ( T ) LTD.,<br>P.O.Box 1545,<br>Dar es Salaam,<br>Tanzania.</p>
+                                <p>Westfield Technologies Company Limited,<br>
+                                    Kijitonyama Mpakani A,<br>
+                                    Block No. 43 Plot No. 26,<br>
+                                    Along Shekilango Road,<br>
+                                    Kinondoni,<br>
+                                    P.O. Box 6966,<br>
+                                    Dar es Salaam,<br>
+                                    United Republic of Tanzania</p>
 
                             </div>
                             <!-- WIDGET -->
@@ -96,12 +102,12 @@
                                 <h3>Contact Details</h3>
 
                                 <ul>
-                                    <li>Tel: +255 22 2864343</li>
-                                    <li>Mobile: +255 784 248 227</li>
-                                    <li>Email: info@humannehomes.com</li>
-                                    <li>Twitter: <a href="#" title="Join Us On Twitter">@Humannehomes</a></li>
+                                    <li>Tel: +255 22 2701611</li>
+                                    <li>Fax: +255 22 270161</li>
+                                    <li>Email: info@westfield.co.tz</li>
+<!--                                    <li>Twitter: <a href="#" title="Join Us On Twitter">@Humannehomes</a></li>
                                     <li>Facebook: <a href="#" title="Join Us On Facebook">Humannehomes</a></li>
-                                    <li>Linked In: <a href="#" title="Join Us On Linked In">Humannehomes</a></li>
+                                    <li>Linked In: <a href="#" title="Join Us On Linked In">Humannehomes</a></li>-->
                                 </ul>
 
                             </div>
@@ -112,51 +118,51 @@
                 <div class="accordiontitle"><h3><a href="#">Pro-forma invoice request</a></h3></div>
                 <div class="accordioncontent">
                     <div id="contact-wrapper">
-                        <div class="contact-left">
-                            <p>Our goal is to provide friendly and responsive support to you, we value feedback from our customers and we are committed to provide you with our best in customer service.
-                                Our office hours are between <strong>8:00am to 6:00pm Monday - Friday and 9:00am to 4:00pm on Saturday </strong></p>
-                            <p>If you have any question, comment or message, please fill-out the form and our customer service representatives will reply to your inquiry within 24 hrs</p>
-                            <form id="contact-form">
-                                <fieldset>
-                                    <p><label>Name</label><br>
-                                        <input type="text" class="commentinput" name="name" id="name"></p>
-                                    <p><label>email</label><br>
-                                        <input type="text" class="commentinput" name="email" id="email"></p>
-                                    <p><label>email</label><br>
-                                        <input type="text" class="commentinput" name="email" id="email"></p>
-                                    <p><label>email</label><br>
-                                        <input type="text" class="commentinput" name="email" id="email"></p>
-                                    <p><label>Comment</label><br>
-                                        <textarea class="commenttextarea" name="commentarea" id="commentarea"></textarea></p>
-                                    <p><input type="submit" class="home-button" style="width: 150px;"></p>
-                                </fieldset>
-                            </form>
-                        </div>
-                        <div class="contact-right">
-                            <div class="widget">
-
-                                <h3>Address</h3>
-
-                                <p>HUMANNE HOMES ( T ) LTD.,<br>P.O.Box 1545,<br>Dar es Salaam,<br>Tanzania.</p>
-
-                            </div>
-                            <!-- WIDGET -->
-                            <!-- WIDGET -->
-                            <div class="widget">
-
-                                <h3>Contact Details</h3>
-
-                                <ul>
-                                    <li>Tel: +255 22 2864343</li>
-                                    <li>Mobile: +255 784 248 227</li>
-                                    <li>Email: info@humannehomes.com</li>
-                                    <li>Twitter: <a href="#" title="Join Us On Twitter">@Humannehomes</a></li>
-                                    <li>Facebook: <a href="#" title="Join Us On Facebook">Humannehomes</a></li>
-                                    <li>Linked In: <a href="#" title="Join Us On Linked In">Humannehomes</a></li>
-                                </ul>
-
-                            </div>
-                        </div>
+                        <!--                        <div class="contact-left">
+                                                    <p>Our goal is to provide friendly and responsive support to you, we value feedback from our customers and we are committed to provide you with our best in customer service.
+                                                        Our office hours are between <strong>8:00am to 6:00pm Monday - Friday and 9:00am to 4:00pm on Saturday </strong></p>
+                                                    <p>If you have any question, comment or message, please fill-out the form and our customer service representatives will reply to your inquiry within 24 hrs</p>
+                                                    <form id="contact-form">
+                                                        <fieldset>
+                                                            <p><label>Name</label><br>
+                                                                <input type="text" class="commentinput" name="name" id="name"></p>
+                                                            <p><label>email</label><br>
+                                                                <input type="text" class="commentinput" name="email" id="email"></p>
+                                                            <p><label>email</label><br>
+                                                                <input type="text" class="commentinput" name="email" id="email"></p>
+                                                            <p><label>email</label><br>
+                                                                <input type="text" class="commentinput" name="email" id="email"></p>
+                                                            <p><label>Comment</label><br>
+                                                                <textarea class="commenttextarea" name="commentarea" id="commentarea"></textarea></p>
+                                                            <p><input type="submit" class="home-button" style="width: 150px;"></p>
+                                                        </fieldset>
+                                                    </form>
+                                                </div>-->
+                        <!--                        <div class="contact-right">
+                                                    <div class="widget">
+                        
+                                                        <h3>Address</h3>
+                        
+                                                        <p>HUMANNE HOMES ( T ) LTD.,<br>P.O.Box 1545,<br>Dar es Salaam,<br>Tanzania.</p>
+                        
+                                                    </div>
+                                                     WIDGET 
+                                                     WIDGET 
+                                                    <div class="widget">
+                        
+                                                        <h3>Contact Details</h3>
+                        
+                                                        <ul>
+                                                            <li>Tel: +255 22 2864343</li>
+                                                            <li>Mobile: +255 784 248 227</li>
+                                                            <li>Email: info@humannehomes.com</li>
+                                                            <li>Twitter: <a href="#" title="Join Us On Twitter">@Humannehomes</a></li>
+                                                            <li>Facebook: <a href="#" title="Join Us On Facebook">Humannehomes</a></li>
+                                                            <li>Linked In: <a href="#" title="Join Us On Linked In">Humannehomes</a></li>
+                                                        </ul>
+                        
+                                                    </div>
+                                                </div>-->
                     </div>
                 </div>
 
