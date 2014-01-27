@@ -56,7 +56,7 @@
                                     <a href="#" class="home-button">Read more</a></p>
                             </dd>
                             <dt>INWARE</dt>
-                            <dd><h2>InWare</h2><p><img src="images/slider/inware1.png" width="350" alt="inWare" /><span style="color: #999999">Inventory management made easy </span><br><br> Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, enim.<br /><br/><br/><a href="#" class="home-button">Read more</a></p></dd>
+                            <dd><h2>InWare</h2><p><img src="images/slider/inware1.png" width="350" alt="inWare" /><span style="color: #999999">Inventory management made easy </span><br><br> is an inventory system for small to mid size businesses to handle sales, purchasing, and inventory management and control.<br /><br/><br/><a href="#" class="home-button">Read more</a></p></dd>
                             <dt>WEB DESIGN AND DEVELOPMENT</dt>
                             <dd><p><img src="images/slider/webdesign.jpg" alt="web design" width="610" /></p></dd>
                             <dt>ICT DESIGN AND CONSTRUCTION</dt>
