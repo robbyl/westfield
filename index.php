@@ -141,7 +141,7 @@
                             <div class="middle-section">
                                 <div class="vertical-column1">
                                     <a href="News/index.php">
-                                        <img src="Images/latest-news2.png" alt="Latest News" width="287" height="65" border="0">
+                                        <img src="images/latest-news2.png" alt="Latest News" width="287" height="65" border="0">
                                     </a>
 
                                     <div align="left" class="newz">
@@ -175,26 +175,26 @@
                                             </strong>......................................................................<br>
                                         </font>
                                     </div>
-                                    <a href="#"><img src="Images/case-studies1.png" alt="Case Studies" width="287" height="65" border="0"></a><br>
+                                    <a href="#"><img src="images/case-studies1.png" alt="Case Studies" width="287" height="65" border="0"></a><br>
 
                                 </div>
                                 <div class="vertical-column2">
-                                    <div align="center"><a href="#"><img src="Images/Our_services.png" alt="eGreenwoods" name="eGreenwoods" width="275" height="136" border="0"></a></div>
+                                    <div align="center"><a href="#"><img src="images/Our_services.png" alt="eGreenwoods" name="eGreenwoods" width="275" height="136" border="0"></a></div>
                                     <p>
                                         Discern the range of services we can offer from Planning, Design and Network installation services to Testing, Commissioning.. [<span class="mainbody">
                                             <a href="#">...more</a></span>]
                                     </p>
-                                    <div align="center"><a href="#"><img src="Images/products.png" alt="Our Markets" name="Our-Markets" width="275" height="136" border="0"></a></div>
+                                    <div align="center"><a href="#"><img src="images/products.png" alt="Our Markets" name="Our-Markets" width="275" height="136" border="0"></a></div>
                                     <p>
                                         View our featured Products. We work with industry leading manufacturers to bring you latest tools, materials and equipments. [<span class="mainbody"><a href="#">...more</a></span>]</p>
                                 </div>
                                 <div class="vertical-column3">
-                                    <div align="center"><a href="#"><img src="Images/Our_Solutions.png" alt="Our Products" name="Our-Products" width="275" height="136" border="0"></a></div>
+                                    <div align="center"><a href="#"><img src="images/Our_Solutions.png" alt="Our Products" name="Our-Products" width="275" height="136" border="0"></a></div>
                                     <p align="left" >
                                         Powerful business solutions will positively impact your bottom line. Your website, Software and other systems should be proactively making
                                         [<span class="mainbody"><a href="#">...more</a></span>]
                                     </p>
-                                    <div align="center"><a href="#"><img src="Images/web-hosting.png" alt="Web hosting" name="Web-hosting" width="275" height="136" border="0"></a></div>
+                                    <div align="center"><a href="#"><img src="images/web-hosting.png" alt="Web hosting" name="Web-hosting" width="275" height="136" border="0"></a></div>
                                     <p>Discern the range of services we can offer from Planning, Design and Network installation services to Testing, Commissioning.. [<span class="mainbody"><a href="#">...more</a></span>]</p>
                                 </div>
                             </div>
@@ -209,14 +209,14 @@
                 <div id="container">
                     <div id="slider">
                         <ul>
-                            <li><a href=""><img src="Images/our-clients.png" width="895" height="100" border="0" /></a></li>
+                            <li><a href=""><img src="images/our-clients.png" width="895" height="100" border="0" /></a></li>
                         </ul>
                     </div>
                 </div>
                 <table width="895" height="20" border="0" align="center" cellpadding="0" cellspacing="0">
                     <tr bgcolor="#FFFFFF">
                         <td width="20%" align="center" valign="top">
-                            <div align="left"><a href=""><img src="Images/opservices-footer.gif"></a>
+                            <div align="left"><a href=""><img src="images/opservices-footer.gif"></a>
                                 <span class="homefooter">
                                     <font size="1" face="Arial, Helvetica, sans-serif"><br>
                                         <font color="#333333">
@@ -230,7 +230,7 @@
                             </div>
                         </td>
 
-                        <td width="20%" align="center" valign="top"><div align="left"><a href=""><img src="Images/managedservices-footer.gif"></a><span class="homefooter">
+                        <td width="20%" align="center" valign="top"><div align="left"><a href=""><img src="images/managedservices-footer.gif"></a><span class="homefooter">
                                     <font size="1"><font face="Arial, Helvetica, sans-serif">
                                             <font color="#333333"><br>
                                                 <a href="#">Software design & development</a><br>
@@ -246,7 +246,7 @@
                                             </font></font></font></span></div></td>
 
                         <td width="20%" align="center" valign="top">
-                            <div align="left"><a href="#"><img src="Images/market-sectors-footer.gif"></a><span class="homefooter"><font size="1" face="Arial, Helvetica, sans-serif">
+                            <div align="left"><a href="#"><img src="images/market-sectors-footer.gif"></a><span class="homefooter"><font size="1" face="Arial, Helvetica, sans-serif">
                                         <font color="#333333"><br>
                                             <a href="#">Clients Portal</a><br>
                                             <a href="#">Gallery View</a><br>
@@ -259,7 +259,7 @@
                         <td width="20%" height="20" align="left" valign="top">
                             <div>
                                 <a href="Products/index.php">
-                                    <img src="Images/products-footer.gif" border="0"></a><span class="homefooter"><font size="1" face="Arial, Helvetica, sans-serif">
+                                    <img src="images/products-footer.gif" border="0"></a><span class="homefooter"><font size="1" face="Arial, Helvetica, sans-serif">
                                         <font color="#333333">   <br>
                                             <a href="Products/voice-data-equipment.php">Voice & data</a> |
                                             <a href="Products/software.php">Software</a><br>
@@ -274,7 +274,7 @@
                         </td>
 
                         <td width="20%" align="center" valign="top">
-                            <div align="left"><a href=""><img src="Images/aboutus-footer.gif"></a><span class="homefooter">
+                            <div align="left"><a href=""><img src="images/aboutus-footer.gif"></a><span class="homefooter">
                                     <font size="1" face="Arial, Helvetica, sans-serif">
                                         <font color="#333333"><br>
                                             <a href="#">Westfield Technologies</a><br>
@@ -294,7 +294,7 @@
                             <td width="407" height="20" align="center" valign="middle"><div align="left"><strong></strong><strong><font color="#000000" size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font><font color="#000000"><font size="1" face="Verdana, Arial, Helvetica, sans-serif">Copyright
                                                 &copy; <?php echo date('Y'); ?><font color="#0e4be2"> Westfield Technologies Company Limited</font></font></font></strong></div>
                             </td>
-                            <td width="493" align="center" valign="top"><div align="right"><strong><a href="#"><img src="Images/accreditations-small2.gif" alt="Accreditations" border="0"></a></strong></div>
+                            <td width="493" align="center" valign="top"><div align="right"><strong><a href="#"><img src="images/accreditations-small2.gif" alt="Accreditations" border="0"></a></strong></div>
                             </td>
                         </tr>
                         <tr bgcolor="#FFFFFF">

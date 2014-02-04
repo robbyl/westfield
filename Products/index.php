@@ -102,7 +102,8 @@
 <!--                    <td height="12" colspan="2" bgcolor="#FFFFFF" ><img src="Images/canovate.jpg" alt="Canovate" width="152" height="29"></td>-->
                 </tr>
                 <tr valign="top"> 
-                    <td width="266" height="12" bgcolor="#FFFFFF"><p>
+                    <td width="266" height="12" bgcolor="#FFFFFF">
+                        <img src="Images/sis-small.png" style="height: 70px;" /><p>
                             SIS provides user-friendly dashboards with login access to all the teachers, non-teaching staff, students, parents and management body of your institution. The various modules
                             [<span class="mainbody"><a href="product-of-the-month-Greenlee-Toolikts.php">...more</a></span>]</p></td>
                     <td width="33" bgcolor="#FFFFFF"></td>

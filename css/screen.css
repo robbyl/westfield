@@ -676,11 +676,20 @@ ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus{outline:none;}
     padding: 0;
 }
 
-#contact-form .commentinput, #contact-form textarea {
+
+#contact-form .commentinput,
+#contact-form textarea {
     background: #f2f2f2;
     border: 1px solid #dddddd;
     padding: 0 5px;
 }
+
+#contact-form .commentinput:focus,
+#contact-form textarea:focus {
+    border: 1px solid #3f93e2;
+    outline: none;
+}
+
 #contact-form .commentinput {
     width: 300px;
     height: 30px;
@@ -743,4 +752,28 @@ ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus{outline:none;}
 
 .requied-field {
     color: palevioletred;
+}
+
+.contactmessage {
+    background: #f45b5b;
+    border: 1px solid #d53131;
+    width: 510px;
+    padding: 5px;
+    color: #fff !important;
+    text-align: center !important;
+    position: fixed;
+    top: 10px;
+    display: none;
+}
+
+.contactsuccess {
+    background: #62a1ed;
+    border: 1px solid #3f93e2;
+    width: 510px;
+    padding: 5px;
+    color: #fff !important;
+    text-align: center !important;
+    position: fixed;
+    top: 10px;
+    display: none;
 }

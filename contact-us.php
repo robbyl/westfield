@@ -6,6 +6,7 @@
         <LINK REL=StyleSheet HREF="style.css" TYPE="text/css">
         <LINK REL=StyleSheet HREF="style1.css" TYPE="text/css">
         <link rel="stylesheet" href="css/screen.css" type="text/css"/>
+        
         <script type="text/javascript" src="js/jquery.min.js"></script>
         <script src="js/jquery.jcarousel.min.js"></script>
         <script src="js/jquery.easing.js"></script>
@@ -65,19 +66,21 @@
                             <p>Our goal is to provide friendly and responsive support to you, we value feedback from our customers and we are committed to provide you with our best in customer service.
                                 Our office hours are between <strong>8:00am to 6:00pm Monday - Friday and 9:00am to 4:00pm on Saturday </strong></p>
                             <p>If you have any question, comment or message, please fill-out the form and our customer service representatives will reply to your inquiry within 24 hrs</p>
-                            <form id="contact-form">
+                            <p class="contactmessage"></p>
+                            <p class="contactsuccess"></p>
+                            <form id="contact-form" action="">
                                 <fieldset>
                                     <p><label>Name<span class="requied-field">*</span></label><br>
                                         <input type="text" class="commentinput" name="name" id="name"></p>
                                     <p><label>Company</label><br>
-                                        <input type="text" class="commentinput" name="email" id="email"></p>
+                                        <input type="text" class="commentinput" name="email" id="company"></p>
                                     <p><label>E-mail<span class="requied-field">*</span></label><br>
                                         <input type="text" class="commentinput" name="email" id="email"></p>
                                     <p><label>How did you find us?</label><br>
-                                        <input type="text" class="commentinput" name="email" id="email"></p>
+                                        <input type="text" class="commentinput" name="email" id="how-did-you-find-us"></p>
                                     <p><label>Comment<span class="requied-field">*</span></label><br>
                                         <textarea class="commenttextarea" name="commentarea" id="commentarea"></textarea></p>
-                                    <p><input type="submit" class="home-button" style="width: 150px;"></p>
+                                    <p><input type="submit" class="home-button" style="width: 150px;" id="commentarea"></p>
                                 </fieldset>
                             </form>
                         </div>
@@ -102,9 +105,9 @@
                                 <h3>Contact Details</h3>
 
                                 <ul>
-                                    <li>Tel: +255 22 2701611</li>
-                                    <li>Fax: +255 22 270161</li>
-                                    <li>Email: info@westfield.co.tz</li>
+                                    <li>&raquo; Tel: +255 22 2701611</li>
+                                    <li>&raquo; Fax: +255 22 270161</li>
+                                    <li>&raquo; Email: info@westfield.co.tz</li>
 <!--                                    <li>Twitter: <a href="#" title="Join Us On Twitter">@Humannehomes</a></li>
                                     <li>Facebook: <a href="#" title="Join Us On Facebook">Humannehomes</a></li>
                                     <li>Linked In: <a href="#" title="Join Us On Linked In">Humannehomes</a></li>-->
